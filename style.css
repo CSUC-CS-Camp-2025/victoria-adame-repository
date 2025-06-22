@@ -2,3 +2,8 @@
 body {
  background-color: #9ba182;
 }
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
