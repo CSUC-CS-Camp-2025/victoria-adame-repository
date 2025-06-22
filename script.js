@@ -12,3 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   type();
 });
+
+window.onload = () => {
+  document.querySelectorAll("p, img, h1").forEach(el => {
+    el.style.opacity = 0;
+    el.style.transition = "opacity 2s";
+    setTimeout(() => el.style.opacity = 1, 300);
+  });
+};
