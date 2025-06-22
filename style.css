@@ -13,3 +13,8 @@ p {
     text-align: center;
     margin-top: 20px;
 }
+
+img {
+  margin: 15px 0;
+  border: 2px solid #444;
+}
