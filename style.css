@@ -17,4 +17,9 @@ p {
 img {
   margin: 15px 0;
   border: 2px solid #444;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
 }
