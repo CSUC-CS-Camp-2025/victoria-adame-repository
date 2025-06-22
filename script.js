@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 window.onload = () => {
   document.querySelectorAll("p, img, h1").forEach(el => {
     el.style.opacity = 0;
-    el.style.transition = "opacity 10s";
+    el.style.transition = "opacity 1s";
     setTimeout(() => el.style.opacity = 1, 300);
   });
 };
