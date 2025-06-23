@@ -14,10 +14,3 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
-document.querySelectorAll("img").forEach(img => {
-  img.addEventListener("click", () => {
-    img.classList.add("shake");
-    setTimeout(() => img.classList.remove("shake"), 500); // remove after animation
-  });
-});
