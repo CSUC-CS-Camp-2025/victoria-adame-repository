@@ -13,20 +13,5 @@ document.addEventListener("DOMContentLoaded", () => {
   type();
 });
 
-const revealElements = document.querySelectorAll("p, img");
 
-window.addEventListener("scroll", () => {
-  revealElements.forEach(el => {
-    const rect = el.getBoundingClientRect();
-    if (rect.top < window.innerHeight - 100) {
-      el.style.opacity = 1;
-      el.style.transform = "translateY(0)";
-    }
-  });
-});
 
-revealElements.forEach(el => {
-  el.style.opacity = 0;
-  el.style.transform = "translateY(20px)";
-  el.style.transition = "all 1s ease";
-});
