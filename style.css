@@ -21,3 +21,15 @@ img {
 img:hover {
   transform: scale(1.05);
 }
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-4px, 0); }
+  50% { transform: translate(4px, 0); }
+  75% { transform: translate(-4px, 0); }
+  100% { transform: translate(0, 0); }
+}
+
+img:hover {
+  animation: shake 0.5s;
+}
