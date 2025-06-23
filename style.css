@@ -47,7 +47,7 @@ img:hover {
 
 @keyframes typing {
   from { width: 0; }
-  to { width: 999px; } /* Set width based on your text length */
+  to { width: 6000px; }  /* Set width based on your text length */
 }
 
 @keyframes blink {
