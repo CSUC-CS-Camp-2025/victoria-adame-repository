@@ -34,3 +34,22 @@ img:hover {
 img:hover {
   animation: shake 0.5s;
 }
+
+.typewriter {
+  overflow: hidden;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  animation: typing 3s steps(30, end), blink 0.7s step-end infinite;
+  width: 0;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
